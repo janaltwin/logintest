@@ -1,0 +1,14 @@
+1675663244881	geckodriver	INFO	Listening on 127.0.0.1:58098
+1675663247925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\janal\\AppData\\Local\\Temp\\rust_mozprofilekN7529"
+1675663248261	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675663248266	Marionette	INFO	Listening on port 58114
+WebDriver BiDi listening on ws://127.0.0.1:58099
+Read port: 58114
+1675663248538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\janal\\AppData\\Local\\Temp\\rust_mozprofilekN7529\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58099/devtools/browser/1fe83cd0-434c-43b3-b9ac-d595c69f4cf0
+1675663778331	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1675664939491	Marionette	INFO	Stopped listening on port 58114
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

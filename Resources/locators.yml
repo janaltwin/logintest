@@ -1,0 +1,10 @@
+homepage:
+  login-button              : "css= a[title='LOGIN']"
+  username                  : "css= #username"
+  password                  : "css= #password"
+  login                     : "css= .button.big.center.form-submit.w88-button"
+
+
+
+
+

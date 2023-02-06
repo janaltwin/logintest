@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.9.0 on win32)" generated="20230206 14:00:44.430" rpa="false" schemaversion="3">
+<suite id="s1" name="Test" source="C:\Users\janal\PycharmProjects\LoginTest\Test">
+<suite id="s1-s1" name="Login" source="C:\Users\janal\PycharmProjects\LoginTest\Test\Login.robot">
+<test id="s1-s1-t1" name="Login Pass" line="17">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${target}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230206 14:00:44.635" level="INFO">Opening browser 'firefox' to base url 'https://www.w88asia.com/default?language=id-id'.</msg>
+<msg timestamp="20230206 14:00:44.637" level="INFO">Firefox driver log is always forced to to: C:\Users\janal\PycharmProjects\LoginTest\Output\geckodriver-7.log</msg>
+<status status="PASS" starttime="20230206 14:00:44.635" endtime="20230206 14:00:51.646"/>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<arg>css= a[title='LOGIN']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230206 14:00:51.648" level="INFO">Clicking link 'css= a[title='LOGIN']'.</msg>
+<msg timestamp="20230206 14:00:51.958" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230206 14:00:51.958" level="FAIL">Link with locator 'css= a[title='LOGIN']' not found.</msg>
+<status status="FAIL" starttime="20230206 14:00:51.647" endtime="20230206 14:00:52.007"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230206 14:00:52.007" endtime="20230206 14:00:52.008"/>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<arg>password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230206 14:00:52.008" endtime="20230206 14:00:52.008"/>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<arg>css=.button.big.center.form-submit.w88-button</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20230206 14:00:52.008" endtime="20230206 14:00:52.009"/>
+</kw>
+<kw name="Page Should Contain Element" library="Selenium2Library">
+<arg>//*[@id="modalFrame"]/div</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="NOT RUN" starttime="20230206 14:00:52.009" endtime="20230206 14:00:52.009"/>
+</kw>
+<status status="FAIL" starttime="20230206 14:00:44.634" endtime="20230206 14:00:52.009">Link with locator 'css= a[title='LOGIN']' not found.</status>
+</test>
+<doc>Login Test</doc>
+<status status="FAIL" starttime="20230206 14:00:44.449" endtime="20230206 14:00:52.011"/>
+</suite>
+<status status="FAIL" starttime="20230206 14:00:44.431" endtime="20230206 14:00:52.014"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Login">Test.Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230206 14:00:44.630" level="ERROR">Error in file 'C:\Users\janal\PycharmProjects\LoginTest\Resources\resource.robot' on line 2: Invalid resource file extension '.yml'. Supported extensions are '.resource', '.robot', '.txt', '.tsv', '.rst' and '.rest'.</msg>
+<msg timestamp="20230206 14:00:44.631" level="ERROR">Error in file 'C:\Users\janal\PycharmProjects\LoginTest\Resources\resource.robot' on line 3: Processing variable file 'C:\Users\janal\PycharmProjects\LoginTest\Resources\variable.yml' failed: Using YAML variable files requires PyYAML module to be installed. Typically you can install it by running `pip install pyyaml`.</msg>
+<msg timestamp="20230206 14:00:44.632" level="ERROR">Error in file 'C:\Users\janal\PycharmProjects\LoginTest\Test\Login.robot' on line 5: Invalid resource file extension '.yml'. Supported extensions are '.resource', '.robot', '.txt', '.tsv', '.rst' and '.rest'.</msg>
+</errors>
+</robot>

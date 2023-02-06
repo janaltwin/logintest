@@ -1,0 +1,53 @@
+1675651172335	geckodriver	INFO	Listening on 127.0.0.1:58976
+1675651175390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\janal\\AppData\\Local\\Temp\\rust_mozprofilesJgFcV"
+1675651175728	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675651175732	Marionette	INFO	Listening on port 58993
+WebDriver BiDi listening on ws://127.0.0.1:58977
+Read port: 58993
+1675651175991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\janal\\AppData\\Local\\Temp\\rust_mozprofilesJgFcV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58977/devtools/browser/6c53b569-c79b-4fc1-8e70-329924dfb867
+JavaScript warning: https://www.w88asia.com/_static/_script/main.js?0.0.2686, line 1765: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 197: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 307: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 316: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 326: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 348: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 378: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 388: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 398: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 408: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 418: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 428: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 438: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 448: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 480: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 489: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 515: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/_script/fingerprint2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.w88asia.com/_static/_script/fingerprint2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.w88asia.com."
+JavaScript warning: https://www.w88asia.com/_static/_script/main.js?0.0.2686, line 1765: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 197: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 307: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 316: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 326: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 348: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 378: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 388: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 398: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 408: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 418: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 428: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 438: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 448: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 480: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 489: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/js/game.launcher.js?0.0.2686, line 515: unreachable code after return statement
+JavaScript warning: https://www.w88asia.com/_static/_script/fingerprint2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.w88asia.com/_static/_script/fingerprint2.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675664940525	Marionette	INFO	Stopped listening on port 58993
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 23484, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777

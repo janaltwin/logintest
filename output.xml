@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.9.0 on win32)" generated="20230206 12:41:10.400" rpa="false" schemaversion="3">
+<suite id="s1" name="FakeData" source="C:\Users\janal\PycharmProjects\LoginTest\FakeData">
+<suite id="s1-s1" name="Data" source="C:\Users\janal\PycharmProjects\LoginTest\FakeData\data.robot">
+<test id="s1-s1-t1" name="Example Test Case" line="5">
+<kw name="Evaluate" library="BuiltIn">
+<var>${url}</var>
+<arg>"http://${ENVIRONMENT}.example.com/api/user"</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230206 12:41:10.431" level="INFO">${url} = http://dev.example.com/api/user</msg>
+<status status="PASS" starttime="20230206 12:41:10.431" endtime="20230206 12:41:10.431"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>URL: ${url}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230206 12:41:10.431" level="INFO">URL: http://dev.example.com/api/user</msg>
+<status status="PASS" starttime="20230206 12:41:10.431" endtime="20230206 12:41:10.431"/>
+</kw>
+<status status="PASS" starttime="20230206 12:41:10.431" endtime="20230206 12:41:10.431"/>
+</test>
+<status status="PASS" starttime="20230206 12:41:10.431" endtime="20230206 12:41:10.431"/>
+</suite>
+<status status="PASS" starttime="20230206 12:41:10.400" endtime="20230206 12:41:10.431"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="FakeData">FakeData</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Data">FakeData.Data</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
